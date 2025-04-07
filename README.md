@@ -16,7 +16,7 @@
 
  - 詞庫增強來源 [Rime 詞庫增強](https://github.com/Iorest/rime-dict/)
 
- - 音碼基底來源 [狸貓粵拼](https://github.com/leimaau/leimaau_jyutping/)
+ - 音碼基底來源 [貍貓粵拼](https://github.com/leimaau/leimaau_jyutping/)
 
  - 詞庫基底來源 [Rime 粵語拼音方案](https://github.com/rime/rime-cantonese/)
 
@@ -86,9 +86,9 @@ jyutsp_goi輸入法
  - 亦：
     - 知能 `zi+o(人)+ng` 智能 `zi+oa(人日)+ng`
 
--  五字出长詞：
+-  五字出長詞：
    - 吖吱吖咗 `ezez+r(口)` 崩口人忌崩口碗 `bhyw+m(一)`
-(括号内仓颉码)
+(括號內倉頡碼)
 
 ### 其他功能展示：
 
@@ -129,7 +129,7 @@ jyutsp_goi輸入法
 
 2，常用字有快速碼、優先出簡。可用文檔自行修改順序。
 
-3，針對常用粵字書面字依次做排序。默認以繁體港標為准。
+3，針對常用粵字書面字依次做排序。默認以繁體港標為準。
 
 4，加入以詞定字，“，”“。”可從組詞揀字。如輸入：斬纜，撳“]”鍵淨出單字“纜”。
 
@@ -159,18 +159,18 @@ jyutsp_goi輸入法
 7，基礎詞庫收音多，因而有使用非常用音字、多音字組詞問題，僅在常用多音字作分詞優化
 
 ## 6. 文檔說明
-- 用户文檔/
+- 用戶文檔/
   - jyutsp_top 文檔：主要為：單字碼、三字碼、以及一些衝突的四字碼。可在此修改優先順序
   
   - jyutsp_zaamsihangci 文檔：主要為：雙字詞彙、多字詞詞碼。可在此修改優先順序
     
-  - forjyut.jyut.dict.yaml：粵文詞彙(新詞彙添加此、可用於打長詞翻译器)
+  - forjyut.jyut.dict.yaml：粵文詞彙(新詞彙添加此、可用於打長詞翻譯器)
     
   - forjyut.jyutsp.dict.yaml：粵文詞彙。量詞、四鍵長詞可在此修改。
     
   - forjyut.chat.dict.yaml：書面語、普語詞彙
     
-  - forjyut.chatcust.dict.yaml：書面語、普語詞彙(新詞彙添加此、可用於打長詞翻译器)
+  - forjyut.chatcust.dict.yaml：書面語、普語詞彙(新詞彙添加此、可用於打長詞翻譯器)
 
 
 ## 7. 常見問答：
