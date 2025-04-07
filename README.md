@@ -67,7 +67,12 @@ jyutsp_goi輸入法
   - 雙拼：`yf gv sj yi p; dg , ht yb zu mc zy fu yy km ta mr dik bc ho mp dd dik kr lz，bn kt sj m; 、zi yb wo zx kb hg fd dk kr lz`（唔計空格81隻字符）
 （以上數據使用work統計）  
 
+
 ### 例：
+<p align="center">
+<img float=right src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA.gif"/>
+</p>
+
 - 一字固定快碼：
   - 我 `u` 你 `n` 愛 `i` 佢 `k`
 
