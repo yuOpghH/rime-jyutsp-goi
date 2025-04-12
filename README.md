@@ -1,4 +1,6 @@
-# rime-jyutsp_goi - 係基於rime嘅粵語雙拼+倉頡輔助碼輸入法方案
+# rime-jyutsp_goi 
+
+<h1 align="center">jyutsp_goi - 基於rime嘅粵語雙拼+倉頡輔助碼輸入法方案</h1>
 
 - [1. 致謝](#1-致謝)
 - [2. 介紹](#2-介紹)
