@@ -75,9 +75,12 @@ jyutsp_goi輸入法
 
 ### 例：
 <p align="center">
-<img float=right src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA.gif"/>
-</p>
+<img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA.gif"/>
 
+ 
+ <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/展示/trime.jpg" style="width: 600px;"/>
+</p>
+ 
 - 一字固定快碼：
   - 我 `u` 你 `n` 愛 `i` 佢 `k`
 
@@ -168,11 +171,11 @@ jyutsp_goi輸入法
 
 6，超大詞庫，超大冗餘
 
-7，基礎詞庫收音多，因而有使用非常用音字、多音字組詞問題，僅在常用多音字作分詞優化
+7，基礎詞庫收音多，因而有使用非常用音字、<b>多音字組詞嘅bug</b>，僅在常用多音字作分詞優化
 
 ## 6. 文檔說明
 - 用戶文檔/
-  - jyutsp_top 文檔：主要為：單字碼、三字碼、以及一些衝突的四字碼。可在此修改優先順序
+  - jyutsp_top 文檔：主要為：單字碼、三字碼、以及一啲衝突嘅四字碼。可在此修改優先順序
   
   - jyutsp_zaamsihangci 文檔：主要為：雙字詞彙、多字詞詞碼。可在此修改優先順序
     
@@ -194,16 +197,16 @@ jyutsp_goi輸入法
   - <s>A 1：請點開jyutsp_goi.schema.yaml，揾到“字形 → 大陸”呢行，喺上邊嘅“reset: 2"改成”reset: 0“，保存並重新部署。你都可以用“ctrl+Q”快速切換。</s>
   - 使用其他文檔內的補丁即可。
 
-- Q 2:點解要用jyutsp方案做雙拼基底
+- Q 2:為何要用jyutsp方案做雙拼基底
   - A 2:佢係市面家下佔用嘅鍵位最少嘅方案
 
-- Q 3:學習成本咁高點解要用你
+- Q 3:學習成本咁高，為何要用你
   - A 3:的而且確。但目的係想畀一個想用母語輸出又想打得快嘅粵語用家有多一種選擇
 
-- Q 4:點解要加輔助碼，輔助碼點解係倉頡碼。
-  - A 4.1:打字唔止話淨出詞，仲要出字，要想打得快又要固定序，添加輔助碼係固定順序又減少記憶嘅折衷方案。
+- Q 4:為何要加輔助碼，輔助碼為何係倉頡碼。
+  - A 4.1:打字不單止話淨出詞，仲要出字，要想打得快又要固定序，添加輔助碼係固定順序又減少記憶嘅折衷方案。
   - A 4.2:倉頡僅120個倉頡字母，學習成本相對較低，且多數港澳學校都有教導。
 
-- Q 5：有啲置頂字詞我唔係好想要喎，點整走佢
-  - A 5： 揾到jyutsp_top.txt、jyutsp_zaamsihangci.txt點開，刪又得改後邊嘅數字換序又得。
+- Q 5:個別置頂字詞我唔係好想要喎，如何整走佢
+  - A 5:揾到jyutsp_top.txt、jyutsp_zaamsihangci.txt點開，刪又得改後邊嘅數字換序又得。
 
