@@ -17,7 +17,7 @@
 - [5. 入門成本](#5-入門成本)
 - [6. 文檔說明](#6-文檔說明)
 - [7. 常見問答](#7-常見問答)
-- [8. 其他圖片展示](#7-其他圖片展示)
+- [8. 其他圖片展示](#8-其他圖片展示)
 
 
 ## 1. 致謝
@@ -219,7 +219,7 @@ jyutsp_goi輸入法
 - Q 5:個別置頂字詞非我想要喎，如何修改
   - A 5:揾到jyutsp_top.txt、jyutsp_zaamsihangci.txt點開，刪又得改後邊嘅數字換序又得。
 
-## 8. 其他圖片展示：
+## 8. 其他圖片展示
 
 <p align="center">
  <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/展示/trime.jpg" style="width: 400px;"/>
