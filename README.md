@@ -4,7 +4,7 @@
 
 <h1 align="center">
  
-<p align="center"><a href="https://github.com/yuOpghH/rime-jyutsp_goi/releases"><img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/download%20button.jpg" style="width: 180px;"/></a></p>
+<p align="center"><a href="https://github.com/yuOpghH/rime-jyutsp_goi/releases"><img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/download%20button.jpg" style="width: 150px;"/></a></p>
 
 </h1>
 
@@ -17,6 +17,7 @@
 - [5. 入門成本](#5-入門成本)
 - [6. 文檔說明](#6-文檔說明)
 - [7. 常見問答](#7-常見問答)
+- [8. 其他圖片展示](#7-其他圖片展示)
 
 
 ## 1. 致謝
@@ -85,9 +86,6 @@ jyutsp_goi輸入法
 ### 例：
 <p align="center">
 <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA.gif"/>
-
- 
- <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/展示/trime.jpg" style="width: 600px;"/>
 </p>
  
 - 一字固定快碼：
@@ -221,3 +219,12 @@ jyutsp_goi輸入法
 - Q 5:個別置頂字詞非我想要喎，如何修改
   - A 5:揾到jyutsp_top.txt、jyutsp_zaamsihangci.txt點開，刪又得改後邊嘅數字換序又得。
 
+## 8. 其他圖片展示：
+
+<p align="center">
+ <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/展示/trime.jpg" style="width: 400px;"/>
+ </br>
+ <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/learn%2001.png" style="width: 400px;"/>
+ </br>
+ <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/learn%2002.jpg" style="width: 400px;"/>
+</p>
