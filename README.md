@@ -40,7 +40,7 @@
 jyutsp_goi輸入法 
 本方案係依賴於[Rime](https://rime.im/)以「香港語言學學會粵語拼音方案」以及「港標字體」為格式嘅粵拼雙拼方案、喺基礎上加埋倉頡輔助碼的四碼輸入的混撈輸入法。
 
-即全碼四碼：兩碼音碼+倉頡碼。雙拼輸入法經已流行咗好耐，雙拼輸入法將擊鍵數有效壓縮至相對為兩鍵一碼嘅科學打字法。
+即全碼四碼：兩碼音碼+倉頡碼 的音形碼（形碼可忽略、可只打音碼）。雙拼輸入法經已流行咗好耐，雙拼輸入法將擊鍵數有效壓縮至相對為兩鍵一碼嘅科學打字法。
 
 針對常用嘅書面字、粵字等3000單字及兩萬餘詞、5000餘四字詞作優化，搭載超大詞庫，覆蓋日常打字範圍90%。
 
@@ -66,7 +66,7 @@ jyutsp_goi輸入法
 
 ## 4. 碼長展示：
 - 各個國家有各個國家嘅國歌
-  - 全拼：`gok ge gwok gaa jau gok ge gwok gaa ge gwok g`o（35隻字符）
+  - 全拼：`gok ge gwok gaa jau gok ge gwok gaa ge gwok go`（35隻字符）
   - 雙拼：`gp ge xp ga ja gp go xp ga ge xp go`（24隻字符）
 - 人皆生而平等，享有造物主賦予給他們的不可剝奪的權利，包括生命、自由和追求幸福的權利
   - 全拼：`jan gaai sang ji ping dang ，hoeng jau zou mat zyu fu jyu kap taa mun dik bat ho mok dyut dik kyun lei，baau kut sang ming、zi jau wo zoei kau hang fuk dik kyun lei`（唔計空格126隻字符）
