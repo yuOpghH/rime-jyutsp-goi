@@ -2,6 +2,14 @@
 
 <h1 align="center">jyutsp_goi - 基於rime嘅粵語雙拼+倉頡輔助碼輸入法方案</h1>
 
+<h1 align="center">
+ 
+<p align="center"><a href="https://github.com/yuOpghH/rime-jyutsp_goi/releases"><img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/download%20button.jpg" style="width: 180px;"/></a></p>
+
+</h1>
+
+
+
 - [1. 致謝](#1-致謝)
 - [2. 介紹](#2-介紹)
 - [3. 使用方法](#3-使用方法)
