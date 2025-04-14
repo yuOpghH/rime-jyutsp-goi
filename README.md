@@ -75,7 +75,7 @@ jyutsp_goi輸入法
 
 ## 4. 碼長展示：
 - 各個國家有各個國家嘅國歌
-  - 全拼：`gok ge gwok gaa jau gok ge gwok gaa ge gwok go`（35隻字符）
+  - 全拼：`gok go gwok gaa jau gok go gwok gaa ge gwok go`（35隻字符）
   - 雙拼：`gp ge xp ga ja gp go xp ga ge xp go`（24隻字符）
 - 人皆生而平等，享有造物主賦予給他們的不可剝奪的權利，包括生命、自由和追求幸福的權利
   - 全拼：`jan gaai sang ji ping dang ，hoeng jau zou mat zyu fu jyu kap taa mun dik bat ho mok dyut dik kyun lei，baau kut sang ming、zi jau wo zoei kau hang fuk dik kyun lei`（唔計空格126隻字符）
@@ -145,8 +145,10 @@ jyutsp_goi輸入法
 
 - 若果你係學習過粵拼及倉頡碼，學習成本約一周左右
   - 若果你係學習過倉頡碼，學習成本約兩周左右
-    - 若果你係從零開始，學習成本約四周左右
+    - 若果你係從零開始，僅學習 雙拼鍵打，學習成本約三周左右
+      - 若果你係從零開始，並學習 倉頡碼，學習成本約四周左右
 
+(該項目有提供學習文檔，或能提高速度)
 
 #### 優點：
 1，平均兩碼出一字
