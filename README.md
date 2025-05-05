@@ -4,7 +4,7 @@
 
 <h1 align="center">
  
-<p align="center"><a href="https://github.com/yuOpghH/rime-jyutsp_goi/releases"><img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/download%20button.jpg" style="width: 150px;"/></a></p>
+<p align="center"><a href="https://github.com/yuOpghH/rime-jyutsp_goi/releases"><img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/download-button.jpg" style="width: 150px;"/></a></p>
 
 </h1>
 
@@ -90,7 +90,7 @@ jyutsp_goi輸入法
 ### 例：
 <p align="center">
 <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA%20(1).gif"/>
-<img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA%20(2).gif"style="width: 400px;" />
+<img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA-(2).gif" />
 <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA%20(3).jpg"/>
 </p>
  
@@ -118,7 +118,7 @@ jyutsp_goi輸入法
 
 ### 其他功能展示：
 
-造詞：應輸出全碼使次翻譯器生效，如輸出“`記淥`” ，應打`~號+gzyu+~號+ldee`，即可上屏記錄，參照項目頭部動態圖片(2)
+造詞：應輸出全碼使次翻譯器生效，如輸出“`記淥`” ，應打`gzyu（記）+~號+ldee（淥）+~號`，即可上屏記錄，參照項目頭部動態圖片(2)。（關於造詞規則詳細參見[7. 常見問答](#7-常見問答)）
 
 刪詞：使用`ctrl+del`刪除已上屏的詞彙
 
@@ -234,6 +234,14 @@ jyutsp_goi輸入法
 
 - Q 5:個別置頂字詞非我想要喎，如何修改
   - A 5:揾到jyutsp_top.txt、jyutsp_zaamsihangci.txt點開，刪又得改後邊嘅數字換序又得。
+
+- Q 6：關於造詞規則的詳細
+  - A 6：為何組詞規則如此麻煩？
+  - 原理：簡而言之，關於rime的造詞優先，custom_phrase（固頂字詞）並不會參與翻譯器如abc、fixed、fixed之間的組詞，這樣會導致混輸入造詞失敗，為此我添加了fixed、fixed2兩個翻譯器進行特別覆蓋。之所以這樣選擇，純用翻譯器對字詞序調整是很麻煩的。
+  - 一般來講，對此機制不明，超過3個單字組成的詞彙上屏便能成自造詞，但是這逐一逐一選字，最後一個單字會被固頂覆蓋，從而組詞失敗。
+  - 即係，“zihu ~ zuyr ~ ciyr〔造詞中〕”如此輸入一般能上屏，但係輸入“自造ciyr+ ~〔造詞中〕”已上屏前面單字到最後一個時，會導致組詞失敗
+  - 即係輸出 “zihu ~ zuyr ~ ciyr〔造詞中〕”仍然有效，所以為了規避特殊（單字上屏）情況，啫係話“唔使用户諗噉多”“嘩太複雜喇”，說明板直接將造詞規則闡明為 “單字之間用`號分隔，然後在結尾多打一個“ ~ ”號就可以嘞。”
+  - 即 “zihu ~ zuyr ~ ciyr`~`〔造詞中〕”
 
 ## 8. 其他圖片展示
 
