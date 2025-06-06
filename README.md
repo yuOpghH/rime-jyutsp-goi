@@ -1,10 +1,10 @@
-# rime-jyutsp_goi 
+# rime-jyutsp-goi 
 
-<h1 align="center">jyutsp_goi - 基於rime嘅粵語雙拼+倉頡輔助碼輸入法方案</h1>
+<h1 align="center">jyutsp-goi - 基於rime嘅粵語雙拼+倉頡輔助碼輸入法方案</h1>
 
 <h1 align="center">
  
-<p align="center"><a href="https://github.com/yuOpghH/rime-jyutsp_goi/releases"><img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/download-button.jpg" style="width: 150px;"/></a></p>
+<p align="center"><a href="https://github.com/yuOpghH/rime-jyutsp-goi/releases"><img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/download-button.jpg" style="width: 150px;"/></a></p>
 
 </h1>
 
@@ -44,9 +44,9 @@
 
 ## 2. 介紹
 
-<h1 align="center">粵拼雙拼改 jyutsp_goi 輸入法。</h1>
+<h1 align="center">粵拼雙拼改 jyutsp-goi 輸入法。</h1>
 
-jyutsp_goi輸入法 
+jyutsp-goi輸入法 
 本方案係依賴於[Rime](https://rime.im/)以「香港語言學學會粵語拼音方案」以及「港標字體」為格式嘅粵拼雙拼方案、喺基礎上加埋倉頡輔助碼的四碼輸入的混撈輸入法。
 
 即全碼四碼：兩碼音碼+倉頡碼 的音形碼（形碼可忽略、可只打音碼）。雙拼輸入法經已流行咗好耐，雙拼輸入法將擊鍵數有效壓縮至相對為兩鍵一碼嘅科學打字法。常規統計，雙拼較之全拼約壓縮30~50%鍵位，經驗來講，每分輸出50—60字的用家轉換後一般能達到80-90每分字速。
@@ -71,8 +71,8 @@ jyutsp_goi輸入法
 
 ## 3. 使用方法
 - 1，（本體）
-  - 1.1 （未曾擁有rime，pc端），請下載 weasel-with-jyutsp_goi X.X-installer（完全安裝）版，直接安裝，等待程式佈置完成即可使用。
-  - 1.2 （已擁有rime，或其他端rime），請下載jyutsp_goi 20XX-XX-XX.rar（僅方案），解壓後分別按照文檔存放，右鍵系統托盤的Rime圖標選擇“用户文件夾”“程序文件夾”等對應各處位置覆蓋，然後在輸入法選中併重新部署。（建議備份好原文檔）
+  - 1.1 （未曾擁有rime，pc端），請下載 weasel-with-jyutsp-goi X.X-installer（完全安裝）版，直接安裝，等待程式佈置完成即可使用。
+  - 1.2 （已擁有rime，或其他端rime），請下載jyutsp-goi 20XX-XX-XX.rar（僅方案），解壓後分別按照文檔存放，右鍵系統托盤的Rime圖標選擇“用户文件夾”“程序文件夾”等對應各處位置覆蓋，然後在輸入法選中併重新部署。（建議備份好原文檔）
 </br>（首次使用時，所以請至少在方案選單設定中載入方案“jyutsp_faancaa（粵語雙拼 反查雙拼+全拼）”一次，其後可取消，否則無有返查）
 
 - 2，（其他文檔）在部署好本體後，再用補丁覆蓋。預備好“預設簡中”“預設台標繁中”等補丁。擇適用可。
@@ -81,7 +81,7 @@ jyutsp_goi輸入法
 
 - 4，（學習文檔）
   - 4.1 此法適合從零開始用家。配置文檔兼有雙拼鍵位、倉頡字根學習練習，用家可自擇自行下載部署好[極速跟打器](http://www.jsxiaoshi.com/)後，下載極速跟打器.rar按照路徑部署相關檔案，在設置內更換好”編碼文件“。即可使用“練習→字根練習”“發文→文章→繁體常用單字”等相關教程學習。(注：該程序不兼容粵字，練習請用繁體常用單字)
-  - 4.2 此法適合有基礎用家。無需安裝程式線上使用。用家可打開雲端 [木易跟打器](https://typer.owenyang.top/) ，然後[學習資料](https://github.com/yuOpghH/rime-jyutsp_goi/tree/main/%E6%9C%A8%E6%98%93%E8%B7%9F%E6%89%93%E5%99%A8) 資料夾內的資料配置進去，將 “jyutspgoi 3500字粵音常用字試驗方案.txt”文本拖進 功能/設置/碼表設置中保存，在同頁面打開“編碼提示”，然後在“跟打”複製貼上“粵音常用字%203500字順序.txt”，即可練習。
+  - 4.2 此法適合有基礎用家。無需安裝程式線上使用。用家可打開雲端 [木易跟打器](https://typer.owenyang.top/) ，然後[學習資料](https://github.com/yuOpghH/rime-jyutsp-goi/tree/main/%E6%9C%A8%E6%98%93%E8%B7%9F%E6%89%93%E5%99%A8) 資料夾內的資料配置進去，將 “jyutspgoi 3500字粵音常用字試驗方案.txt”文本拖進 功能/設置/碼表設置中保存，在同頁面打開“編碼提示”，然後在“跟打”複製貼上“粵音常用字%203500字順序.txt”，即可練習。
 
 ## 4. 碼長展示：
 - 各個國家有各個國家嘅國歌
@@ -96,9 +96,9 @@ jyutsp_goi輸入法
 ### 例：
 
 <p align="center">
-<img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA%20(1).gif"  style="width:380px;"/>
-<img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA-(2).gif"  style="width:380px;"/>
-<img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA(3).jpg"/>
+<img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA%20(1).gif"  style="width:380px;"/>
+<img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA-(2).gif"  style="width:380px;"/>
+<img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA(3).jpg"/>
 </p>
  
 - 一字固定快碼：
@@ -226,7 +226,7 @@ jyutsp_goi輸入法
 ## 7. 常見問答：
 
 - Q 1：如何修改預設輸出簡體中文/台標繁中
-  - <s>A 1：請點開jyutsp_goi.schema.yaml，揾到“字形 → 大陸”呢行，喺上邊嘅“reset: 2"改成”reset: 0“，保存並重新部署。你都可以用“ctrl+Q”快速切換。</s>
+  - <s>A 1：請點開jyutsp-goi.schema.yaml，揾到“字形 → 大陸”呢行，喺上邊嘅“reset: 2"改成”reset: 0“，保存並重新部署。你都可以用“ctrl+Q”快速切換。</s>
   - 使用其他文檔內的補丁即可。
 
 - Q 2:為何要用jyutsp方案做雙拼基底
@@ -253,9 +253,9 @@ jyutsp_goi輸入法
 ## 8. 其他圖片展示
 
 <p align="center">
- <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/展示/trime.jpg" style="width: 400px;"/>
+ <img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/展示/trime.jpg" style="width: 400px;"/>
  </br>
- <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/learn%2001.png" style="width: 400px;"/>
+ <img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/learn%2001.png" style="width: 400px;"/>
  </br>
- <img src="https://github.com/yuOpghH/rime-jyutsp_goi/blob/main/%E5%B1%95%E7%A4%BA/learn%2002.jpg" style="width: 400px;"/>
+ <img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/learn%2002.jpg" style="width: 400px;"/>
 </p>
