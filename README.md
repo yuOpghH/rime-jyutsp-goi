@@ -70,7 +70,7 @@ jyutsp-goi輸入法
 | :------- | ------: | -------: |  -------: |  -------: |  -------: |  -------: |  -------: | 
 | [jyutsp-real <br>粵語雙拼<br>純雙拼](https://github.com/yuOpghH/rime-jyutsp-real)  | 低。僅需記憶鍵位映射 | 大量重複音節 | ✓ | ✓ |  |  | 
 | [jyutsp-loengfan<br>粵語雙拼<br>兩分輔助碼](https://github.com/yuOpghH/rime-jyutsp-loengfan)   | 較低。幾乎可見可拆 | 能初步篩選同部首 | ✓ | ✓ | ✓ |  | 
-| [jyutsp-real<br>粵語雙拼<br>倉頡輔助碼](https://github.com/yuOpghH/rime-jyutsp-goi)  | 較高。120個倉頡字根 | 三千字內5.8% | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [jyutsp-goi<br>粵語雙拼<br>倉頡輔助碼](https://github.com/yuOpghH/rime-jyutsp-goi)  | 較高。120個倉頡字根 | 三千字內5.8% | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 # 輸入編碼
 ## 碼表
@@ -83,6 +83,9 @@ jyutsp-goi輸入法
   - j鍵開頭的音節變成以y鍵輸出為主
   - j鍵兼容y鍵聲母輸出(而非兼容z鍵)
   - v鍵兼容z鍵聲母輸出
+  - 固頂字詞不包含在兼容鍵內
+ 
+  
 ## 3. 使用方法
 - 1，（本體）
   - 1.1 （未曾擁有rime，pc端），請下載 weasel-with-jyutsp-goi X.X-installer（完全安裝）版，直接安裝，等待程式佈置完成即可使用。
