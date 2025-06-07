@@ -55,7 +55,15 @@ jyutsp-goi輸入法
 
 （若您在使用途中多有BUG、實為力有所不及，敬請原諒）
 
- - 現另提供基礎版真雙拼方案：[jyutsp-real粵語雙拼輸入法（純雙拼真雙拼方案）](https://github.com/yuOpghH/rime-jyutsp-real)
+
+##### 感興趣的話歡迎瀏覽其他方案版本：
+
+| 粵語雙拼方案 | 學習成本 | 揀字率 | 連續雙碼長句輸出 | 單字快碼 | 輔助碼篩選字詞 | 字詞固頂 | 簡拼輸出
+| :------- | ------: | -------: |  -------: |  -------: |  -------: |  -------: |  -------: | 
+| [jyutsp-real <br>粵語雙拼<br>純雙拼](https://github.com/yuOpghH/rime-jyutsp-real)  | 低。僅需記憶鍵位映射 | 大量重複音節 | ✓ | ✓ |  |  | 
+| [jyutsp-loengfan<br>粵語雙拼<br>兩分輔助碼](https://github.com/yuOpghH/rime-jyutsp-loengfan)   | 較低。幾乎可見可拆 | 能初步篩選同部首 | ✓ | ✓ | ✓ |  | 
+| [jyutsp-real<br>粵語雙拼<br>倉頡輔助碼](https://github.com/yuOpghH/rime-jyutsp-goi)  | 較高。120個倉頡字母 | 三千字內5.8% | ✓ | ✓ | ✓ | ✓ | ✓ |
+
 ----
 - 更新日誌：
   - 版本 2025-05-01 update：重新梳理3500字的固定簡碼，引入新嘅翻譯器解決custom_phrase造詞阻擋問題。導入新lua “is_in_user”提示造詞上屏記錄、使用rimetool引用新輸入法陰影主題。
@@ -71,7 +79,7 @@ jyutsp-goi輸入法
 
 - 鍵位與原雙拼方案碼表的差異：
   - j鍵開頭的音節變成以y鍵輸出為主
-  - j鍵兼容j鍵聲母輸出(而非兼容z鍵)
+  - j鍵兼容y鍵聲母輸出(而非兼容z鍵)
   - v鍵兼容z鍵聲母輸出
 ## 3. 使用方法
 - 1，（本體）
