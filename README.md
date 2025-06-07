@@ -66,11 +66,11 @@ jyutsp-goi輸入法
 
 ##### 感興趣的話歡迎瀏覽其他方案版本：
 
-| 粵語雙拼方案 | 學習成本 | 揀字率 | 連續雙碼長句輸出 | 單字快碼 | 輔助碼篩選字詞 | 字詞固頂 | 簡拼輸出
+| 粵語雙拼方案 | 學習成本 | 揀字率 | 連續雙碼長句輸出 | 一鍵快碼 | 輔助碼篩選字詞 | 字詞固頂 | 簡拼輸出
 | :------- | ------: | -------: |  -------: |  -------: |  -------: |  -------: |  -------: | 
 | [jyutsp-real <br>粵語雙拼<br>純雙拼](https://github.com/yuOpghH/rime-jyutsp-real)  | 低。僅需記憶鍵位映射 | 大量重複音節 | ✓ | ✓ |  |  | 
 | [jyutsp-loengfan<br>粵語雙拼<br>兩分輔助碼](https://github.com/yuOpghH/rime-jyutsp-loengfan)   | 較低。幾乎可見可拆 | 能初步篩選同部首 | ✓ | ✓ | ✓ |  | 
-| [jyutsp-real<br>粵語雙拼<br>倉頡輔助碼](https://github.com/yuOpghH/rime-jyutsp-goi)  | 較高。120個倉頡字母 | 三千字內5.8% | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [jyutsp-real<br>粵語雙拼<br>倉頡輔助碼](https://github.com/yuOpghH/rime-jyutsp-goi)  | 較高。120個倉頡字根 | 三千字內5.8% | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 # 輸入編碼
 ## 碼表
