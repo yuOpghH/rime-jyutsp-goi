@@ -55,6 +55,7 @@ jyutsp-goi輸入法
 
 （若您在使用途中多有BUG、實為力有所不及，敬請原諒）
 
+ - 現另提供基礎版真雙拼方案：[jyutsp-real粵語雙拼輸入法（純雙拼真雙拼方案）](https://github.com/yuOpghH/rime-jyutsp-real)
 ----
 - 更新日誌：
   - 版本 2025-05-01 update：重新梳理3500字的固定簡碼，引入新嘅翻譯器解決custom_phrase造詞阻擋問題。導入新lua “is_in_user”提示造詞上屏記錄、使用rimetool引用新輸入法陰影主題。
