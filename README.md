@@ -115,6 +115,9 @@ jyutsp-goi輸入法
 <p align="center">
 <img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA%20(1).gif"  style="width:380px;"/>
 <img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA-(2).gif"  style="width:380px;"/>
+<img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA%20(4).gif"  style="width:240px;"/>
+</p>
+<p align="center">
 <img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA(3).jpg"/>
 </p>
  
@@ -142,7 +145,9 @@ jyutsp-goi輸入法
 
 ### 其他功能展示：
 
-造詞：應輸出全碼使次翻譯器生效，如輸出“`群募`” ，應打`qfsq（群）+~號+muts（募）+~號`，即可上屏記錄，參照項目頭部動態圖片(2)。（關於造詞規則詳細參見[7. 常見問答](#7-常見問答)）
+造詞：輸出全詞後，僅需在後綴塞入“\`”，可進入造詞模式，如輸出“`群募`” ，應打`qfsq（群） + muts（募）+~號`，即可上屏記錄。同時你仍可以在中間使用“\`”作為分隔符亦可“`qfsq（群） + +~號 + muts（募）+~號`，”，參照項目頭部動態圖片(2)。（關於造詞規則詳細參見[7. 常見問答](#7-常見問答)）
+
+emoji：輸出字詞後，後綴按“\`”鍵切換至emoji濾鏡模式，揀選emoji。參照項目頭部動態圖片(3)。
 
 刪詞：使用`ctrl+del`刪除已上屏的詞彙
 
