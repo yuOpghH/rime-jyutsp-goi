@@ -57,6 +57,7 @@ jyutsp-goi輸入法
 
 ----
 - 更新日誌：
+  - 版本 2026-11-22 update：添加拆解音形碼拆解提示濾鏡（方便新手入門）、通過轉譯全拼詞庫表為本方案加上注音，減少多音字錯拼的問題。
   - 版本 2025-05-01 update：重新梳理3500字的固定簡碼，引入新嘅翻譯器解決custom_phrase造詞阻擋問題。導入新lua “is_in_user”提示造詞上屏記錄、使用rimetool引用新輸入法陰影主題。
   - 版本 2025-05-14 update：從現在開始提供“完全安裝”版本，無有rime的用家可以通過“完全安裝”程式包直接一步佈置好。
 
@@ -118,7 +119,8 @@ jyutsp-goi輸入法
 <img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA%20(4).gif"  style="width:240px;"/>
 </p>
 <p align="center">
-<img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA(3).jpg"/>
+<img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E7%B2%B5%E8%AA%9E%E9%9B%99%E6%8B%BC%E5%B1%95%E7%A4%BA(3).jpg"/><br>
+<img src="https://github.com/yuOpghH/rime-jyutsp-goi/blob/main/%E5%B1%95%E7%A4%BA/%E6%BF%BE%E9%8F%A1.png" style="width:400px;"/>
 </p>
  
 - 一字固定快碼：
@@ -154,6 +156,8 @@ emoji：輸出字詞後，後綴按“\`”鍵切換至emoji濾鏡模式，揀�
 調整自帶固定字詞序：參見[7. 常見問答](#7-常見問答)，修改jyutsp_top.txt  jyutsp_zaamsihangci.txt即可。
 
 提示功能：通過lua 文字編碼區會提示，”📌“為固定字詞、“🖊️”為當前輸入即上屏(造詞)，”📖“為已鍵入過有歷史記錄的字詞
+
+拆解濾鏡：`ctrl+shift+C`調整出拆解濾鏡，預設關閉。
 
 繁簡一鍵切換：`Ctrl+Q`
 
